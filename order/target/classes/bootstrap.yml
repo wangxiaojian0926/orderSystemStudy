@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: order
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8002
+      #是否启动快速失败功能，功能开启则优先判断config server是否正常
+      fail-fast: true
