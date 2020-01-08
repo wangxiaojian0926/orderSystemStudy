@@ -13,6 +13,7 @@
         <module>configserver</module>
         <module>order</module>
         <module>menu</module>
+        <module>client</module>
     </modules>
 
     <!-- 引入Spring Boot依赖 -->
@@ -27,8 +28,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- 解决JDK 9以上版本没有JAXB API的问题 -->
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
